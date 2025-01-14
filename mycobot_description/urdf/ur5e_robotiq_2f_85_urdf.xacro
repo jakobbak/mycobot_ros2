@@ -5,7 +5,7 @@
 		Robotiq 2F-85 gripper. -->
 
     <!-- Include macros for the UR5e and the Robotiq 2f-85 gripper -->
-    <xacro:include filename="$(find ur_robotiq_description)/urdf/ur5e_urdf.xacro" />
-    <xacro:include filename="$(find ur_robotiq_description)/urdf/robotiq_2f_85_urdf.xacro" />
+    <xacro:include filename="$(find mycobot_description)/urdf/ur5e_urdf.xacro" />
+    <xacro:include filename="$(find mycobot_description)/urdf/robotiq_2f_85_urdf.xacro" />
 
 </robot>
