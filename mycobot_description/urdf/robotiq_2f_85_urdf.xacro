@@ -306,7 +306,7 @@
     </xacro:if>
 
     <xacro:if value="${not gripper_only}">
-    	<xacro:robotiq_gripper name="RobotiqGripperHardwareInterface" prefix="" parent="ur3e_tool0" use_fake_hardware="$(arg use_fake_hardware)">
+    	<xacro:robotiq_gripper name="RobotiqGripperHardwareInterface" prefix="" parent="ur5e_tool0" use_fake_hardware="$(arg use_fake_hardware)">
         	<origin xyz="0 0 0" rpy="0 0 0" />
     	</xacro:robotiq_gripper>
     </xacro:if>
